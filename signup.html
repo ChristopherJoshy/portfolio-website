@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Create a profile with the 15-field registration form in Christopher Joshy's portfolio assignment." />
+    <meta name="theme-color" content="#101a18" />
+    <title>Sign up — Christopher Joshy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="Christopher Joshy home"><span class="brand-mark">cj<span>.</span></span><span class="brand-name">Christopher Joshy</span></a><nav class="site-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link" href="gallery.html">Gallery</a><a class="nav-link" href="contact.html">Contact</a><a class="nav-cta" href="signup.html" aria-current="page">Sign up <span aria-hidden="true">↗</span></a></nav></div></header>
+    <main>
+      <section class="signup-layout container">
+        <aside class="signup-aside"><p class="eyebrow"><span class="status-dot"></span> Create your profile</p><h1>A good place to <span class="serif-accent">begin.</span></h1><p>Join the portfolio community and share a little about yourself. This 15-field form is a front-end demo for the assignment.</p><div class="signup-aside-note"><span>15</span><div><strong>fields</strong><small>One simple registration form</small></div></div><a class="signup-back" href="index.html">← Back to the portfolio</a></aside>
+        <section class="form-panel" aria-labelledby="form-title"><div class="form-heading"><div><p class="eyebrow">Registration / 04</p><h2 id="form-title">Your details</h2></div><span class="form-count">15 FIELDS</span></div>
+          <form onsubmit="return false;" novalidate>
+            <div class="form-grid">
+              <div class="field"><label for="first-name">First name <span>01</span></label><input id="first-name" name="first_name" type="text" autocomplete="given-name" placeholder="e.g. Jordan" /></div>
+              <div class="field"><label for="last-name">Last name <span>02</span></label><input id="last-name" name="last_name" type="text" autocomplete="family-name" placeholder="e.g. Lee" /></div>
+              <div class="field"><label for="email">Email address <span>03</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" /></div>
+              <div class="field"><label for="phone">Phone number <span>04</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+00 000 000 0000" /></div>
+              <div class="field"><label for="birth-date">Date of birth <span>05</span></label><input id="birth-date" name="birth_date" type="date" /></div>
+              <div class="field"><label for="gender">Gender <span>06</span></label><select id="gender" name="gender"><option value="" selected>Select an option</option><option>Woman</option><option>Man</option><option>Non-binary</option><option>Prefer not to say</option></select></div>
+              <div class="field"><label for="country">Country <span>07</span></label><select id="country" name="country"><option value="" selected>Select a country</option><option>India</option><option>United States</option><option>United Kingdom</option><option>Other</option></select></div>
+              <div class="field"><label for="city">City <span>08</span></label><input id="city" name="city" type="text" autocomplete="address-level2" placeholder="Your city" /></div>
+              <div class="field field-full"><label for="address">Street address <span>09</span></label><input id="address" name="address" type="text" autocomplete="street-address" placeholder="Street and building" /></div>
+              <div class="field"><label for="postal-code">Postal code <span>10</span></label><input id="postal-code" name="postal_code" type="text" autocomplete="postal-code" placeholder="Postal code" /></div>
+              <div class="field"><label for="institution">College / Institution <span>11</span></label><input id="institution" name="institution" type="text" placeholder="Institution name" /></div>
+              <div class="field"><label for="course">Course / Program <span>12</span></label><input id="course" name="course" type="text" placeholder="Program name" /></div>
+              <div class="field"><label for="graduation-year">Graduation year <span>13</span></label><input id="graduation-year" name="graduation_year" type="number" inputmode="numeric" placeholder="2026" /></div>
+              <div class="field field-full"><label for="portfolio-url">LinkedIn / Portfolio URL <span>14</span></label><input id="portfolio-url" name="portfolio_url" type="url" placeholder="https://" /></div>
+              <div class="field field-full"><label for="password">Create password <span>15</span></label><input id="password" name="password" type="password" autocomplete="new-password" placeholder="Choose a password" /></div>
+            </div>
+            <p class="form-note">This assignment demo does not store or send your information.</p>
+            <button class="button button-primary form-submit" type="submit">Create profile <span aria-hidden="true">↗</span></button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">cj<span>.</span></span><span class="brand-name">Christopher Joshy</span></a><p>Built with care, curiosity, and clean HTML.</p><a href="https://github.com/ChristopherJoshy" target="_blank" rel="noreferrer">GitHub ↗</a><span>© 2026</span></div></footer>
+  </body>
+</html>
